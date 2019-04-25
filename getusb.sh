@@ -45,6 +45,6 @@ echo $BACKUP_TARGET
 
 # Create backup target direct directory
 # and do the backup
-sudo mkdir -p "${BACKUP_TARGET}"  # assumes haven't done a backup before on $DATE
+sudo mkdir -p "${BACKUP_TARGET}"  # assumes haven't done a backup to the TARGET before on $DATE
 cp -v -r /home/patrick/Desktop/working "${BACKUP_TARGET}"
 
